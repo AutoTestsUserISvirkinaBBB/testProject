@@ -1,0 +1,17 @@
+2014-04-16 15:23:01.527 Logfile: created by:class com.jnetdirect.jsql.JSQLDriver
+2014-04-16 15:23:01.528 -------- RUNTIME --------
+2014-04-16 15:23:01.528 java.vm.version:2.6
+2014-04-16 15:23:01.528 file.encoding:Cp1252
+2014-04-16 15:23:01.528 java.version:1.7.0
+2014-04-16 15:23:01.528 os.name:Windows 7
+2014-04-16 15:23:01.528 os.version:6.1
+2014-04-16 15:23:01.528 user.timezone:America/New_York
+2014-04-16 15:23:01.529 java.class.path:C:\Igor\Dev\Inst\Integration10.3.6000.68\wlp\bin\tools\ws-server.jar;C:\Igor\Dev\Inst\Integration10.3.6000.68\wlp\bin\tools\ws-javaagent.jar;C:\Igor\Dev\Inst\Integration10.3.6000.68\wlp\bin\tools\ws-javaagent.jar
+2014-04-16 15:23:01.529 java.class.path:C:\Igor\Dev\Inst\Integration10.3.6000.68\wlp\bin\tools\ws-server.jar;C:\Igor\Dev\Inst\Integration10.3.6000.68\wlp\bin\tools\ws-javaagent.jar;C:\Igor\Dev\Inst\Integration10.3.6000.68\wlp\bin\tools\ws-javaagent.jar
+2014-04-16 15:23:01.53 runtime.totalMemory:104202240
+2014-04-16 15:23:01.53 runtime.freeMemory:8143088
+2014-04-16 15:23:01.53 -------- START OF LOG --------
+2014-04-16 15:23:01.549 [Thread[Thread-36,5,Scheduled Executor Thread Group], IO:a7b78, Dbc:null] Starting physcial connection attempt for connection id 1 for host:localhost instance:null database:cm9
+2014-04-16 15:23:01.561 [Thread[Thread-36,5,Scheduled Executor Thread Group], IO:a7b78, Dbc:null] Application thread: start calling database connect..localhost 1433 Cat:[cm9]
+2014-04-16 15:23:02.091 *** SQLException:[Thread[Thread-36,5,Scheduled Executor Thread Group], IO:a7b78, Dbc:null] com.jnetdirect.jsql.JSQLException: Proxy Error:java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 60578 Proxy Error:java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 60578
+2014-04-16 15:23:02.092 *** SQLException:[Thread[Thread-36,5,Scheduled Executor Thread Group], IO:a7b78, Dbc:null] com.jnetdirect.jsql.JSQLException: Failed Logon:com.jnetdirect.jsql.JSQLException: Proxy Error:java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 60578 url:jdbc:JSQLConnect://localhost:1433/cm9/trustedAuthentication=true/applicationName=IBM_C10_2_1_CM/logfile=MyLog.txt/ssl=auto Failed Logon:com.jnetdirect.jsql.JSQLException: Proxy Error:java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 60578 url:jdbc:JSQLConnect://localhost:1433/cm9/trustedAuthentication=true/applicationName=IBM_C10_2_1_CM/logfile=MyLog.txt/ssl=auto
